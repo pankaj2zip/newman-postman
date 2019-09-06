@@ -1,0 +1,12 @@
+{
+  "name": "newman-postman",
+  "version": "1.0.0",
+  "description": "newman for postman collection",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-api": "newman run postman_collection/newman_postman_collection.json"
+  },
+  "dependencies": {
+    "newman": "^4.5.4"
+  }
+}
